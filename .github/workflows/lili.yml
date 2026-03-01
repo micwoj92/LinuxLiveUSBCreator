@@ -41,7 +41,7 @@ jobs:
            cd sources\LiLi
            Move-Item "LiLiUSBCreator.exe" ..\..\build
            Move-Item checksums.sha256 ..\..\build
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: lili
           path: |
